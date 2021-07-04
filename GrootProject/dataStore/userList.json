@@ -1,0 +1,72 @@
+{
+	"user_list" : 
+		[
+			{
+				"name": "Vignesh",
+				"profession": "Student",
+				"description": "I am a student at KRCT, Trichy. Doing B.E - Mech final year",
+				"age": "20",
+				"dob": "20-10-2000",
+				"firstName": "Vignesh",
+				"lastName": "S.R",
+				"more": {
+					"address_line1": "No.70, Central white park, Trichy",
+					"address_line2": "",
+					"address_line3": "",
+
+					"phone": "9814998683",
+					"email": "vignesh@gmail.com"
+				}
+			},
+			{
+				"name": "Test",
+				"profession": "Software developer",
+				"description": "I was a student at KRCT, Trichy. Currenty working.",
+				"age": "20",
+				"dob": "07-12-1999",
+				"firstName": "test",
+				"lastName": "user",
+				"more": {
+					"address_line1": "No.10,white betal street, Trichy",
+					"address_line2": "test address_line2",
+					"address_line3": "test address_line3",
+					"phone": "9834567955",
+					"email": "test@gmail.com"
+				}
+			},
+			{
+				"name": "Juan",
+				"profession": "Software developer",
+				"description": "I am a student at KRCT, Trichy. Working at CTS.",
+				"age": "24",
+				"dob": "20-10-2000",
+				"firstName": "Juan",
+				"lastName": "Santiago",
+				"more": {
+					"address_line1": "No.70, Central white times road, New york",
+					"address_line2": "",
+					"address_line3": "",
+
+					"phone": "7902349986",
+					"email": "juan@gmail.com"
+				}
+			},
+			{
+				"name": "Cookie",
+				"profession": "Home safety",
+				"description": "I am a cat working in security department in a house",
+				"age": "4 months",
+				"dob": "1-4-2021",
+				"firstName": "Cookie",
+				"lastName": "",
+				"more": {
+					"address_line1": "No.20, Big bazar street, Trichy",
+					"address_line2": "",
+					"address_line3": "",
+
+					"phone": "N/A",
+					"email": "cookie@gmail.com"
+				}
+			}
+		]
+}

@@ -1,0 +1,19 @@
+{
+	"login_users" : [
+			{
+				"user_name": "Admin",
+				"password": "admin",
+				"is_admin": "yes"
+			},
+			{
+				"user_name": "test",
+				"password": "test",
+				"is_admin": "no"
+			},
+			{
+				"user_name": "Vignesh",
+				"password": "Vignesh",
+				"is_admin": "no"
+			}
+		]
+}

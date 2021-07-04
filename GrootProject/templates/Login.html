@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title> User Login </title>
+		<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/login.css') }}">
+	</head>
+   <body>
+	
+	<div style="background-image: url('./static/galaxy.jpg');background-position: center;background-repeat: no-repeat;background-size: cover;"> 
+
+			
+
+		<form action = "http://localhost:5000/login" method = "post">
+			<center>
+				<h1 style="color:#f8f8f8">
+					User Login
+				</h1>
+			</center>
+			
+			<div class="imgcontainer">
+				<img src="./static/groot.jpg" alt="Groot" class="groot" style="width:300px;height:280px;border-radius: 50%;opacity: .65;">
+			</div>	
+			<center>
+				<div class="container">
+					<label for="uname" ><b>Username</b></label>
+					<input type="text" placeholder="Enter Username" name="uname" style="width:300px" required>
+					<br />
+					<label for="psw" ><b>Password</b></label>
+					<input type="password" placeholder="Enter Password" name="upswd" style="width:300px" required>
+
+					<h3 style="color:red;"> {{ message }} </h3>
+						
+					<button type="submit" style="width:250px" >Login</button>
+					<br />
+					<label >
+					<input type="checkbox" checked="checked" name="remember" > Remember me
+					</label>
+				</div>
+		</center>
+		</form>
+		</div>
+   </body>
+</html>
